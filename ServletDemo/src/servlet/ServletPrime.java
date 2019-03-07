@@ -43,5 +43,5 @@ public class ServletPrime extends HttpServlet {
 //        PrintWriter out = response.getWriter();
 //        out.println("What are you doing here!?");
         response.sendRedirect("/ServletDemo_war_exploded/swordInput.html");
-    }
+}
 }
